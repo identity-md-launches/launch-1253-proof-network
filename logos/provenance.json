@@ -1,0 +1,83 @@
+{
+  "reference": "https://fxumiqjngmabtgvruvka.supabase.co/storage/v1/object/public/forum-attachments/posts/mv2e1bfu-r258kw.webp",
+  "draftsGenerated": 5,
+  "draftsDiscarded": 0,
+  "walletMark": "logos/logo-2.png",
+  "images": [
+    {
+      "file": "logos/logo-1.png",
+      "generation": "OpenAI built-in image_gen",
+      "sourceSha256": "48de867dabd0f1f458b4862a8c2cf6c74ce59e4eb1ab60842d95d9066ecdb827",
+      "sha256": "a52792d66fa53e29c7584572e6b402069f048339cafa461de4854d783913fa39",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "deliveredSize": [
+        1024,
+        1024
+      ],
+      "processing": "Resampled to requested dimensions; no artwork drawn or composited by code."
+    },
+    {
+      "file": "logos/logo-2.png",
+      "generation": "OpenAI built-in image_gen",
+      "sourceSha256": "a8d0e127c96c81b7efb12e17fca899f82eb849e60491158bfd05c44c606ce9c7",
+      "sha256": "fafdf9ddd4f259966328686f325a5f6e6c7d0ecfe7e3b88842aaf209121774ad",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "deliveredSize": [
+        1024,
+        1024
+      ],
+      "processing": "Resampled to requested dimensions; no artwork drawn or composited by code."
+    },
+    {
+      "file": "logos/logo-3.png",
+      "generation": "OpenAI built-in image_gen",
+      "sourceSha256": "ccb4d3d585320e3a1070328ffaefccd479b6de7fae343b3ed9d41eafd54bc23c",
+      "sha256": "ef7486bb40ba16c041972224efbb443ccb20e458629181682cbb243ed799df6d",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "deliveredSize": [
+        1024,
+        1024
+      ],
+      "processing": "Resampled to requested dimensions; no artwork drawn or composited by code."
+    },
+    {
+      "file": "logos/logo-4.png",
+      "generation": "OpenAI built-in image_gen",
+      "sourceSha256": "b7058259a114be7806a69abef33da043d8e712ee586441efffb4a147025dfdc4",
+      "sha256": "3e6b3454ad4e48861d128f959c55eeeeab7b4ea964ade5455186b5f3dbda88cd",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "deliveredSize": [
+        1024,
+        1024
+      ],
+      "processing": "Resampled to requested dimensions; no artwork drawn or composited by code."
+    },
+    {
+      "file": "logos/logo-5.png",
+      "generation": "OpenAI built-in image_gen",
+      "sourceSha256": "a286dbf6eaec9fbb2a03212c8876b9e03f8fe4788a8dad738513da47431d7b90",
+      "sha256": "b0080b4783683e06edb1a2d2df149fd12ff2f64c720894b6384dc8390b2d6b9a",
+      "originalSize": [
+        1254,
+        1254
+      ],
+      "deliveredSize": [
+        1024,
+        1024
+      ],
+      "processing": "Resampled to requested dimensions; no artwork drawn or composited by code."
+    }
+  ]
+}
