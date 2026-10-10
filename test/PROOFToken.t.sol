@@ -109,6 +109,19 @@ contract PROOFTokenTest {
         require(token.balanceOf(BOB) == SUPPLY, "no limit or fee");
     }
 
+    function test_TransferAboveBalanceRevertsWithoutFreezingHolder() public {
+        token.transfer(ALICE, 100);
+        vm.expectRevert(abi.encodeWithSelector(PROOFToken.ERC20InsufficientBalance.selector, ALICE, 100, 101));
+        vm.prank(ALICE);
+        token.transfer(BOB, 101);
+        require(token.balanceOf(ALICE) == 100 && token.balanceOf(BOB) == 0, "failed transfer preserves balances");
+        require(token.totalSupply() == SUPPLY, "failed transfer preserves supply");
+
+        vm.prank(ALICE);
+        require(token.transfer(BOB, 100), "holder can still transfer");
+        require(token.balanceOf(ALICE) == 0 && token.balanceOf(BOB) == 100, "whole balance delivered");
+    }
+
     function test_ApprovalCanBeOverwrittenAndRevoked() public {
         token.approve(SPENDER, 100);
         token.approve(SPENDER, 7);
