@@ -228,7 +228,6 @@ contract PROOFTokenTest {
         }
     }
 
-    /// forge-config: default.fuzz.runs = 1000
     function testFuzz_DelegatedRoundTrip(uint256 rawAmount, uint256 rawExtraAllowance) public {
         uint256 amount = rawAmount % (SUPPLY + 1);
         uint256 extraAllowance = rawExtraAllowance % (SUPPLY + 1);
@@ -245,7 +244,6 @@ contract PROOFTokenTest {
         require(token.totalSupply() == SUPPLY, "fixed supply");
     }
 
-    /// forge-config: default.fuzz.runs = 1000
     function testFuzz_SequencesConserveSupply(bytes32 seed) public {
         address[4] memory holders = [address(this), ALICE, BOB, POOL_MANAGER];
         for (uint256 i; i < 32; ++i) {
