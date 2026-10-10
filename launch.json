@@ -20,5 +20,5 @@
     "initialMarketCapWei": "2500000000000000000000",
     "remainderTo": "0x000000000000000000000000000000000000dead"
   },
-  "notes": "The constructor mints the entire fixed supply to its deployer. The launch factory handles the swarm distributor, pool seeding and remainder. Transfers have no fees or limits; there are no admin or minting functions. initialPrice is provenance only; the launch derives the opening price from the economics and deployed currency order."
+  "notes": "PROOFToken has a parameterless constructor that mints all 1,000,000,000 PROOF (1000000000000000000000000000 minor units at 18 decimals) once to msg.sender. The supply is fixed forever. Transfers and approved transfers follow plain ERC-20 rules with no fee, tax or transfer limit. There is no owner, admin, post-launch minting, proxy or upgradeability. No application contracts are deployed. pool.initialPrice is provenance only; the opening price is derived from economics.initialMarketCapWei, totalSupply and the deployed currency order."
 }
